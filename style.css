@@ -19,13 +19,16 @@ justify-content: space-between;
 overflow:none;
 
 }
+
+.text{
+
+  
+}
 .one{
 display: flex;
-gap: 10px;
 align-items: center;
+gap: 10px;
 color: white;
-
-
 
 }
 .two{
