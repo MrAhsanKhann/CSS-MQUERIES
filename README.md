@@ -1,1 +1,1 @@
-# CSS-MQUERIES
+# Example CSS Media Queries
