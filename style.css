@@ -17,11 +17,14 @@ background-color: #2c9df9;
 display:flex ;
 justify-content: space-between;
 overflow:none;
+align-items: center;
 
 }
 
-.text{
+.text a{
 
+  color: rgb(255, 255, 255);
+  text-decoration: none;
   
 }
 .one{
@@ -66,10 +69,11 @@ align-items: center;
 margin-top: 0px;
 color: white;
 }
-.item1{
-color: white;
 
-}
+
+
+
+
 .search-bar{
     align-items: center;
     border: 2px solid rgba(128, 69, 69, 0.815);
@@ -127,6 +131,8 @@ border-radius: 6px;
   .item5{ grid-area: sidebar; margin-top: -55px; background-color: rgba(127, 255, 212, 0.623);}
   .item6{ grid-area: content;background-color: rgba(127, 255, 212, 0.623); }
   .item7{ grid-area: footer; margin:0; height: 3vw; margin-bottom: -40; background-color: rgba(127, 255, 212, 0.623);}
+
+
   @media screen and (max-width:380px){
     .grid-container{
         height: 100vh;
